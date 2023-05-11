@@ -3,7 +3,7 @@
 
 This hackathon project aimed to tackle the issue of credit card fraud, which had become a significant problem in Canada due to the widespread use of credit cards and the increase in online transactions during the Covid-19 pandemic. The challenge for this project was to build a new fraud detection model that could accurately identify fraudulent transactions and provide insights and recommendations on how to prevent fraud in the future. The team was required to analyze historical and publicly available data to develop the model and conducted statistical/business analysis to answer questions related to fraud prevention.
 
-
+<b>Our model<b>:
 We used XGBoost–an implementation of gradient-boosted-decision trees. The data
 was imbalanced - (2.4% of transactions are fraudulent), causing baseline XGBoost F1 to suffer
 due to low recall.
